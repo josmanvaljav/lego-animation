@@ -33,10 +33,10 @@ module.exports = {
         ,
         new copyWebpackPlugin({
             patterns: [
-                {from: "./src/styles/style.css", 
-                to: ""},
-                {from: "./src/images/*.*", 
-                to: ""}
+                {from: "./src/styles/style.css", to: ""},
+                {from: "./src/images/spiderman.png", to: ""},
+                {from: "./src/images/batman.png", to: ""},
+                {from: "./src/images/flash.png", to: ""}
             ]
         })
     ]
